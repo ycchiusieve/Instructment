@@ -2,7 +2,7 @@
 
 ## Pre-requirement 
 
-### Install NCCL
+### 1. NCCL
 
 Download NCCL from https://developer.nvidia.com/nccl/nccl-download#a-collapse278-101
 
@@ -13,7 +13,7 @@ sudo apt install libnccl2=2.4.8-1+cuda10.1 libnccl-dev=2.4.8-1+cuda10.1
 
 for the detail, see https://docs.nvidia.com/deeplearning/nccl/install-guide/index.html#debian
 
-### Install Open MPI
+### 2. Open MPI
 
 wget https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.5.tar.gz <P>
 gunzip -c openmpi-4.0.5.tar.gz | tar xf -  <P>
