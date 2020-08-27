@@ -22,6 +22,6 @@ make all install<P>
 
 HOROVOD_GPU_ALLREDUCE=NCCL HOROVOD_GPU_BROADCAST=NCCL pip install --no-cache-dir horovod
 
-### Example: To run on 4GPUs, you can use the command 
+### Example: To run 4GPUs on one machine, you can use the command 
 
 horovodrun -np 4 -H localhost:4 python train.py
