@@ -1,6 +1,8 @@
 # To install horovid on Ubuntu 18.04 with cuda10.1
 
-## Pre-requirement 1: NCCL
+## Pre-requirement 
+
+### Install NCCL
 
 Download NCCL from https://developer.nvidia.com/nccl/nccl-download#a-collapse278-101
 
@@ -11,7 +13,7 @@ sudo apt install libnccl2=2.4.8-1+cuda10.1 libnccl-dev=2.4.8-1+cuda10.1
 
 for the detail, see https://docs.nvidia.com/deeplearning/nccl/install-guide/index.html#debian
 
-## Pre-requirement 2: Install Open MPI
+### Install Open MPI
 
 wget https://download.open-mpi.org/release/open-mpi/v4.0/openmpi-4.0.5.tar.gz <P>
 gunzip -c openmpi-4.0.5.tar.gz | tar xf -  <P>
