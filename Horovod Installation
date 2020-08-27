@@ -1,0 +1,4 @@
+To install horovid on Ubuntu 18.04 with cuda10.1
+Step 1: NCCL
+    Download NCCL from https://developer.nvidia.com/nccl/nccl-download#a-collapse278-101
+    
